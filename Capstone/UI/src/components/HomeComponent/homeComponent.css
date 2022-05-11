@@ -1,0 +1,44 @@
+/* Home Component */
+#homeComponentContainer{
+  text-align: center;
+}
+#homeComponentContainer button{
+  font-size: 28px;
+  font-weight: 700;
+  margin: 5px;
+  overflow: hidden;
+  background-color: transparent;
+  color: aqua;
+  border: none;
+}
+#homeComponentContainer button:hover{
+  color: white;
+}
+/* App-Header */
+#app-header{
+  color: rgb(0, 195, 195);
+  text-align: center;
+  font-size: 72px;
+  font-weight: 700;
+}
+#app-header h1{
+  color: white;
+  text-shadow: 1px 1px 2px white, 0 0 15px #61dafb, 0 0 5px blue;
+  color: #282c34;
+}
+
+
+@media only screen and (max-width: 870px) {
+  #app-header p{
+    display: none;
+  }
+  #app-header{
+    text-align: center;
+    font-size: 48px;
+    font-weight: 700;
+  }
+  .responsiveHome{
+    display: flex;
+  }
+}
+

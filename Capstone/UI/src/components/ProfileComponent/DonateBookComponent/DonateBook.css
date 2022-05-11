@@ -1,0 +1,51 @@
+#donateBookContainer{
+  padding: 20px;
+  /* display: flex; */
+  /* justify-content: center; */
+  border: 3px solid black;
+  border-radius: 5px;
+  width: 60%;
+  margin: auto;
+  background-color: rgba(162, 220, 240, 0.37);
+}
+#donateBookContainer header{
+  font-size: larger;
+  font-weight: 800;
+  text-align: center;
+}
+#donateBookForm input{
+  padding:5px;
+  border-radius: 5px;
+
+}
+#donateBookForm span{
+  font-weight: 700;
+}
+#bookComments{
+  min-width: 200px;
+  min-height: 100px;
+}
+#donateBookBtn{
+  margin: 5px;
+  padding: 10px;
+  font-weight: 800;
+  font-size: large;
+  color: white;
+  background-color: blue;
+}
+#donateBookBtn:hover{
+  background-color: deepskyblue;
+}
+#fieldRequirements{
+  display: none;
+  color: rgb(184, 2, 2);
+}
+
+@media only screen and (max-width:500px){
+
+  #donateBookContainer{
+    width: 100%;
+  }
+
+}
+

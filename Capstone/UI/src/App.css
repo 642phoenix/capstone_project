@@ -1,0 +1,36 @@
+*{
+  box-sizing: border-box;
+}
+body{
+  background-color:#282c34;
+  padding: 50px;
+}
+/* #root{
+  display: flex;
+  flex-direction: column;
+} */
+/* ============= */
+
+
+
+/* Footer Component */
+.footerContainer{
+  display: flex;
+  justify-content: center;
+  align-self: flex-end;
+}
+
+
+/* ============= */
+
+
+/* ============= */
+
+
+
+
+
+
+
+
+

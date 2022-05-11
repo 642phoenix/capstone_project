@@ -1,0 +1,94 @@
+#myForm{
+  border: 5px solid white;
+  padding: 20px;
+  text-align: center;
+  font-weight: 700;
+  width: 60%;
+  margin: auto;
+  margin-bottom: 20px;
+  background-color: rgb(0, 148, 148);
+  box-shadow: 5px 5px 3px black;
+}
+#allfieldsTextSignUp{
+  visibility: hidden;
+  color: rgb(189, 0, 0);
+  font-weight: 700;
+}
+
+#signUpForm input{
+  border: none;
+  padding: 5px;
+  margin: 3px;
+  border-radius: 3px;
+  width: 300px;
+}
+
+#signUpBtn{
+  background-color: rgb(0, 0, 146);
+  color: white;
+  font-weight: 700;
+}
+#signUpBtn:hover{
+  background-color: royalblue;
+}
+
+#backBtn{
+  padding: 5px;
+  font-size: large;
+  font-weight: 700;
+  border-radius: 3px;
+  background-color: rgb(250, 73, 42);
+}
+#backBtn:hover{
+  background-color: red;
+  border: 2px solid black;
+}
+
+#myResponsiveForm{
+  display: none;
+}
+
+#signUpForm{
+  text-align: center;
+}
+
+@media only screen and (max-width:770px){
+
+  #myForm{
+    display: none;
+  }
+
+  #myResponsiveForm{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-content: center;
+    color: white;
+    font-size: larger;
+    font-weight: 700;
+  }
+
+  #myResponsiveForm input{
+    width: 100%;
+    height: 50px;
+    font-size: larger;
+    margin-bottom: 5px;
+  }
+
+  #allfieldsTextSignUp_responsive{
+    text-align: center;
+    align-self: center;
+    justify-self: center;
+    color: red;
+    visibility: hidden;
+  }
+
+  #signUpBtn_responsive{
+    background-color: rgb(0, 0, 146);
+    color: white;
+    font-size: 32px;
+    letter-spacing: 1.5;
+    font-weight: 700;
+  } 
+
+}
